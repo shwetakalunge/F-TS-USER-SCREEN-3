@@ -85,7 +85,10 @@
     }
 
     table {
-        width: 100%;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        border: 1px solid grey;
     }
 
     td {
@@ -101,8 +104,8 @@
         text-decoration: none
     }
 
-    td:nth-child(8) {
-        border-bottom: 1px solid #c3baba
+    td:nth-child(7) {
+        border-bottom: 1px solid #8b8b8b
     }
 }
 
