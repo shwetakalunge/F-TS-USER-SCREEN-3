@@ -1,0 +1,326 @@
+.clearfix {
+    zoom: 1
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+@font-face {
+    font-family: saira-bold;
+    src: url(Saira-Bold.ttf)
+}
+
+@font-face {
+    font-family: saira-regular;
+    src: url(Saira-Regular.ttf)
+}
+
+@font-face {
+    font-family: saira-medium;
+    src: url(Saira-Medium.ttf)
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------*/
+
+.Section_Login1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.left {
+    /*    width: 20%;*/
+    left: 0;
+    background-color: white;
+    max-width: 230px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 230px
+}
+
+.right {
+    width: 100%;
+    /* max-width: 1048px;*/
+    flex: 1048px;
+    -webkit-box-flex: 1048px;
+    -ms-flex: 1048pxpx;
+    background: #E5E5E5;
+}
+
+
+h1 {
+    font-family: saira-bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 57px;
+    color: #404040;
+    margin-left: 25px
+}
+
+ul {
+    text-align: center
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    padding: 20px 0px;
+    color: #C7C7C7;
+    font-family: saira-regular;
+
+}
+
+li:hover,
+li:active {
+    background-color: #F3CABB;
+    border-radius: 4px;
+    color: black;
+    font-family: saira-medium;
+    width: 165px;
+    margin: auto
+}
+
+.section_logo {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    /* margin: auto;*/
+}
+
+/*.logo_class {
+    width: 100px;
+    height: 113px;
+}*/
+
+
+.home {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+p {
+    font-family: saira-regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #542D21;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0px 28px 23px 14px;
+
+}
+
+th {
+    padding: 10px;
+    background: #F3CABB;
+    -webkit-box-shadow: inset 0px -2px 0px rgba(131, 87, 87, 0.17);
+    box-shadow: inset 0px -2px 0px rgba(131, 87, 87, 0.17);
+    border-radius: 0px;
+    border: 1px solid white;
+    font-size: 14px;
+    font-family: saira-regular;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: left;
+    height: 56px
+}
+
+th:nth-child(1) {
+    width: 77px;
+}
+
+th:nth-child(2) {
+    width: 215px;
+}
+
+th:nth-child(3) {
+    width: 118px;
+}
+
+th:nth-child(4) {
+    width: 110px;
+}
+
+th:nth-child(5) {
+    width: 95px;
+}
+
+th:nth-child(6) {
+    width: 65px;
+}
+
+th:nth-child(7) {
+    width: 95px;
+}
+
+th:nth-child(8) {
+    width: 60px
+}
+
+td {
+    background: #FFFFFF;
+    -webkit-box-shadow: inset 0px -1px 0px #E5E5E5;
+    box-shadow: inset 0px -1px 0px #E5E5E5;
+    letter-spacing: 0.25px;
+    border: 1px solid #E5E5E5;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: saira-regular;
+    align-items: flex-start text-align: center;
+    padding: 10px 0px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+td:nth-child(2) {
+    word-break: break-all
+}
+
+td:nth-child(5) {
+    color: #008CDB;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    font-family: saira-medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+td:nth-child(7) {
+    color: #008CDB;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+}
+
+footer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    font-family: saira-regular;
+    font-size: 14px;
+}
+
+.Section_PageResult {
+    float: right;
+    margin-right: 35px;
+    font-family: saira-regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+    text-align: right;
+}
+
+/*footer div:hover {
+    background-color: #EB5A2C;
+    border-radius: 50%;
+    height:30px
+}*/
+.pagination {
+    display: inline-block;
+
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 10px;
+    text-decoration: none;
+    text-align: center
+}
+
+.pagination a:hover {
+    background-color: #EB5A2C;
+    color: white;
+    height: 40px;
+    width: 40px;
+
+    border-radius: 50%;
+}
+
+/*-----------------------------------------------------------------------------------*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+}
+
+.sidenav li {
+    padding: 18px 18px 18px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+    color: #C7C7C7;
+    font-family: saira-regular;
+}
+
+.sidenav li:hover {}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.span_nav {
+    visibility: hidden;
+}
+
+.section_logo1 {
+    text-align: center;
+}
+
+/*-----------------------------------------------------------------------------------*/
